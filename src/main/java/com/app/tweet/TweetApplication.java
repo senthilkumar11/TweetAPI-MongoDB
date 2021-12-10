@@ -22,6 +22,7 @@ public class TweetApplication {
 		SpringApplication.run(TweetApplication.class, args);
 	}
 
+//	Initialing role data
 	@Bean
 	InitializingBean sendDatabase() {
 		return ()->{
